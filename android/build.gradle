@@ -1,3 +1,9 @@
+plugins {
+    // Añade el plugin de Google Services
+    id 'com.google.gms.google-services' version '4.4.2' apply false
+}
+
+// Configuración de repositorios
 allprojects {
     repositories {
         google()
@@ -5,22 +11,14 @@ allprojects {
     }
 }
 
+// Configuración de directorios
 rootProject.buildDir = "../build"
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
-}
-subprojects {
     project.evaluationDependsOn(":app")
 }
 
+// Tarea de limpieza
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
-}
-
-plugins {
-  // ...
-
-  // Add the dependency for the Google services Gradle plugin
-  id 'com.google.gms.google-services' version '4.4.2' apply false
-
 }
