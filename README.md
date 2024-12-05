@@ -1,6 +1,5 @@
 # zoom_clone_tutorial
-
-A new Flutter project.
+## Ismanol Ramírez Polanco 2020-0098
 
 ## Getting Started
 
