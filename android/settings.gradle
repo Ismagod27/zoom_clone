@@ -23,3 +23,5 @@ plugins {
 }
 
 include ":app"
+include ':jitsi_meet_wrapper'
+project(':jitsi_meet_wrapper').projectDir = new File(rootProject.projectDir, '../.pub-cache/hosted/pub.dev/jitsi_meet_wrapper-<0.6.2>/android')
