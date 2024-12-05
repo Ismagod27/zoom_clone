@@ -16,3 +16,6 @@ samples, guidance on mobile development, and a full API reference.
 
 Link For The tutorial - credits to Rivaan Ranawat
 https://youtu.be/sMA1dKbv33Y?si=IRGkEzbzKDKGUKOu
+
+# Video explicando
+https://drive.google.com/file/d/1VFc67StdGCDIJtJta0HCQQksiHDxNlSq/view?usp=drive_link
